@@ -41,17 +41,33 @@
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
 				));
-				background-color: _palette(fg-bold);
-				color: _palette(bg);
+				background-color: darkred;
+				color: white;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
 			}
 
+			span{
+				background: black;
+				padding: 0 0.125em 0 0.375em;
+				color: #fff;
+				display: inline-block;
+				line-height: 1.65em;
+				margin-left: -0.325em;
+				padding: 0 0.125em 0 0.375em;
+			}
+
 			&:hover {
 				strong {
-					background-color: _palette(highlight);
+					background-color: white;
+					color: darkred; 
+				}
+
+				span {
+					background-color: white;
+					color: black;
 				}
 			}
 
@@ -217,7 +233,7 @@
 		@include breakpoint(xsmall) {
 			.logo {
 				span {
-					display: none;
+					display: inline-block;
 				}
 			}
 

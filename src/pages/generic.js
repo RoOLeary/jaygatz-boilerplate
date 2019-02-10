@@ -3,6 +3,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic11 from '../assets/images/pic11.jpg'
+import PageTransition from 'gatsby-plugin-page-transitions';
+
 
 const Generic = (props) => (
     <Layout>
@@ -10,7 +12,7 @@ const Generic = (props) => (
             <title>Generic - Forty by HTML5 UP</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
-
+        <PageTransition>
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
@@ -24,7 +26,7 @@ const Generic = (props) => (
                 </div>
             </section>
         </div>
-
+        </PageTransition>
     </Layout>
 )
 
