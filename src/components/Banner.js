@@ -18,7 +18,7 @@ const Banner = (props) => (
                 <p>Welcome aboard! Come on in, kick off your<br />
                 shoes and let's do some maths.</p>
                 <ul className="actions">
-                    <li><AnchorLink className="button next scrolly" href='#one'>HMMM...GO ON...</AnchorLink></li>
+                    <li><AnchorLink className="button next scrolly" href='#one'>And awaaay we go...</AnchorLink></li>
                 </ul>
                  
             </div>
