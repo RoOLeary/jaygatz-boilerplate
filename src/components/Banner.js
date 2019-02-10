@@ -6,12 +6,12 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <Typing>
-                <h1>Hi, I'm Ronan...</h1>
-                <Typing.Delay ms={2000} />
-                <Typing.Backspace count={20} />
-                <Typing.Delay ms={1000} />
-                <h1>I make websites</h1>
+                <Typing speed={50}>
+                    <h1>Hi, I'm Ro...<br />
+                    <Typing.Delay ms={1000} />
+                    ...I drink...<br />
+                    <Typing.Delay ms={1000} />
+                    ...and I know things.</h1>
                 </Typing>
             </header>
             <div className="content">

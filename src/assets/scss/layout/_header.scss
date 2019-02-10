@@ -49,9 +49,23 @@
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
 			}
 
+			span{
+				@include vendor('transition', (
+					'background-color #{_duration(transition)} ease-in-out',
+					'color #{_duration(transition)} ease-in-out'
+				));
+				padding: 0.125em;
+				//margin-left: -0.325em;
+				line-height: 1.65em;
+			}
 			&:hover {
 				strong {
-					background-color: _palette(highlight);
+					background-color: darkred;
+					color: white; 
+				}
+				span {
+					color: black; 
+					background-color: white;
 				}
 			}
 
@@ -217,7 +231,7 @@
 		@include breakpoint(xsmall) {
 			.logo {
 				span {
-					display: none;
+					display: inlne-block;
 				}
 			}
 

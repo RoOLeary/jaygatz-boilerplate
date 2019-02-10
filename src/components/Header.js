@@ -6,7 +6,7 @@ const Header = (props) => (
     <header id="header" className={props.onScrollPos > 500 ? 'reveal' : ' alt' }>
         <Link to="/" className="logo"><strong>DANGER</strong><span>RO</span></Link>
         <nav>
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
+            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;"></a>
         </nav>
     </header>
 )
