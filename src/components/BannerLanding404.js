@@ -5,10 +5,11 @@ const BannerLanding404 = (props) => (
         <div className="inner">
             <header className="404">
                 <h1>4-OH-4!</h1>
-                <p>Hmmm...</p>
-                <p>Hmmm...either you tried going to a route that doesn't exist, <br />
-                or you broke something...either way, there's nothing here....<br /><br />
-                I'd probably bail if I were you</p>
+                <p>Hmmm...bollocks. Something's not right.</p>
+                <p>Okay so, either you tried going to a route that doesn't exist...<br />
+                or maybe you did something to break my website (thanks for that)...whatever the issue is, it's definitely not my fault. <br /><br />
+                Either way, there's nothing here...<br /><br />
+                ...I'd probably bail if I were you</p>
             </header>
         </div>
     </section>
