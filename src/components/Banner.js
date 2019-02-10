@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Banner = (props) => (
     <section id="banner" className="major">
@@ -10,7 +11,7 @@ const Banner = (props) => (
                 <p>A responsive site template designed by HTML5 UP<br />
                 and released under the Creative Commons.</p>
                 <ul className="actions">
-                    <li><a href="#one" onClick={props.scrollClick} className="button next scrolly">Get Started</a></li>
+                    <li><AnchorLink className="button next scrolly" href='#one'>Get Started</AnchorLink></li>
                 </ul>
                  
             </div>
