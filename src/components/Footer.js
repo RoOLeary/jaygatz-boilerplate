@@ -12,7 +12,7 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/ronanoleary/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; { props.year }</li><li>Made with <span style={{ color: 'red' }} >&hearts;</span> in Amsterdam</li>
+                <li>&copy; { props.year }</li><li>Made with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>, <a href="https://www.netlify.com/" target="_blank">Netlify</a> and <span style={{ color: 'red' }} >&hearts;</span> in Amsterdam</li>
             </ul>
         </div>
     </footer>
