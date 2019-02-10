@@ -29,7 +29,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>About</h3>
                                 <p>Who the fu...?</p>
@@ -43,7 +43,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Experience</h3>
                                 <p>Lorem etiam nullam</p>
