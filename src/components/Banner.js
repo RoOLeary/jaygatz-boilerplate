@@ -16,7 +16,7 @@ const Banner = (props) => (
             </header>
             <div className="content">
                 <p>Web Dev. Made in Dublin, based in Amsterdam<br />
-                I make (and talk about) internet stuff.</p>
+                Lover of all things internetty. And Liverpool FC. #YNWA</p>
                 <ul className="actions">
                     <li><AnchorLink className="button next scrolly" href='#one'>TELL ME MORE, TELL ME MORE...</AnchorLink></li>
                 </ul>

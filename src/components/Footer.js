@@ -1,11 +1,5 @@
 import React from 'react'
 
-
-const Year = () => {
-    return (new Date()).getFullYear();
-}
-
-
 const Footer = (props) => (
 
     
