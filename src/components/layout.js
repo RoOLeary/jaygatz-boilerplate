@@ -40,8 +40,8 @@ class Layout extends React.Component {
 
     handleScroll = ev => {
         this.setState({
-        x: window.scrollX,
-        y: window.scrollY
+            x: window.scrollX,
+            y: window.scrollY
         });
     };
 
@@ -51,7 +51,9 @@ class Layout extends React.Component {
         const el = document.querySelector(id)
         if (el) return window.scrollTo(0, el.offsetTop - 20)
         return false
-    }
+    };
+
+    
 
     render() {
         const { children } = this.props
