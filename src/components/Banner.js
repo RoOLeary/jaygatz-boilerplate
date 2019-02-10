@@ -11,7 +11,7 @@ const Banner = (props) => (
                     <Typing.Delay ms={1000} />
                     ...I drink...<br />
                     <Typing.Delay ms={1000} />
-                    ...and I know things.</h1>
+                    ...and I code things.</h1>
                 </Typing>
             </header>
             <div className="content">
