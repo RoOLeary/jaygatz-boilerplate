@@ -19,7 +19,7 @@ const Footer = (props) => (
                 <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; { props.year }</li><li>Made in Amsterdam</li>
+                <li>&copy; { props.year }</li><li>Made with <span style={{ color: 'red' }} >&hearts;</span> in Amsterdam</li>
             </ul>
         </div>
     </footer>
