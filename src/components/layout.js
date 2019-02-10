@@ -4,6 +4,7 @@ import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
+import Transition from "../components/Transition"
 
 class Layout extends React.Component {
     constructor(props) {
@@ -18,7 +19,8 @@ class Layout extends React.Component {
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
     }
 
-    componentDidMount () {
+    componentDidMount (props) {
+        console.log(props)
         window.addEventListener('scroll', this.handleScroll);
         this.timeoutId = setTimeout(() => {
             this.setState({loading: ''});
@@ -57,7 +59,7 @@ class Layout extends React.Component {
 
     render() {
         const { children } = this.props
-
+        
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <div id="wrapper">

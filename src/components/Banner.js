@@ -7,7 +7,7 @@ const Banner = (props) => (
         <div className="inner">
             <header className="major">
                 <Typing speed={50}>
-                    <h1>Hi, I'm Ro...<br />
+                    <h1>Ahoy there! I'm Ronan...<br />
                     <Typing.Delay ms={1000} />
                     ...I drink...<br />
                     <Typing.Delay ms={1000} />
@@ -15,8 +15,8 @@ const Banner = (props) => (
                 </Typing>
             </header>
             <div className="content">
-                <p>Welcome aboard! Come on in, kick off your<br />
-                shoes and let's do some maths.</p>
+                <p>Web Dev. Made in Dublin, based in Amsterdam<br />
+                I make internet stuff.</p>
                 <ul className="actions">
                     <li><AnchorLink className="button next scrolly" href='#one'>And awaaay we go...</AnchorLink></li>
                 </ul>

@@ -24,7 +24,7 @@ class HomeIndex extends React.Component {
                     ]}
                 >
                 </Helmet>
-
+                        
                 <Banner scrollClick={this.scrollTo}/>
 
                 <div id="main">
