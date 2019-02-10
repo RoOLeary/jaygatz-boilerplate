@@ -8,7 +8,6 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-import PageTransition from 'gatsby-plugin-page-transitions';
 
 const Landing = (props) => (
     <Layout>
@@ -16,7 +15,7 @@ const Landing = (props) => (
             <title>Landing Page</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
-        <PageTransition>
+        
             <BannerLanding />
 
             <div id="main">
@@ -79,7 +78,7 @@ const Landing = (props) => (
                     </section>
                 </section>
             </div>
-        </PageTransition>
+       
     </Layout>
 )
 
