@@ -7,7 +7,8 @@ const BannerLanding404 = (props) => (
                 <h1>4-OH-4!</h1>
                 <p>Hmmm...</p>
                 <p>Hmmm...either you tried going to a route that doesn't exist, <br />
-                or you broke something. I'd bail if I were you</p>
+                or you broke something...either way, there's nothing here....<br /><br />
+                I'd probably bail if I were you</p>
             </header>
         </div>
     </section>
