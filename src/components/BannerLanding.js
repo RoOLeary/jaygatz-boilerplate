@@ -7,8 +7,8 @@ const BannerLanding = (props) => (
                 <h1>Landing</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>Welcome aboard! Come on in, kick off your<br />
+                shoes and let's do some maths.</p>
             </div>
         </div>
     </section>

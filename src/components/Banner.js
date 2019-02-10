@@ -15,7 +15,8 @@ const Banner = (props) => (
                 </Typing>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit. Suscipit, tenetur.</p>
+                <p>Welcome aboard! Come on in, kick off your<br />
+                shoes and let's do some maths.</p>
                 <ul className="actions">
                     <li><AnchorLink className="button next scrolly" href='#one'>Get Started</AnchorLink></li>
                 </ul>
