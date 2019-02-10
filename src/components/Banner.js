@@ -15,7 +15,7 @@ const Banner = (props) => (
                 </Typing>
             </header>
             <div className="content">
-                <p>Web Dev. Made in Dublin, based in Amsterdam<br />
+                <p>Web Developer. Made in Dublin, based in Amsterdam<br />
                 Lover of all things internetty. And Liverpool FC. #YNWA</p>
                 <ul className="actions">
                     <li><AnchorLink className="button next scrolly" href='#one'>TELL ME MORE, TELL ME MORE...</AnchorLink></li>
