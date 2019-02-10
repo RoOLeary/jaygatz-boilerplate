@@ -175,3 +175,9 @@
 			}
 		}
 	}
+
+	#banner.bannerLanding{
+		@include vendor('background-image', 'url("../images/whatthefuck.jpg")');
+		background-size: cover; 
+		background-position: center center;
+	}

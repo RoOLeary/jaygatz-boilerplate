@@ -1,16 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
+import BannerLanding404 from '../components/BannerLanding404'
 
 const NotFoundPage = () => (
   <Layout>
-    <div id="main" className="alt">
-        <section id="one">
-            <div className="inner">
-                <h1>OH NO! 4 OH 4! FILE NOT FOUND</h1>
-                <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-            </div>
-        </section>
-    </div>
+    <BannerLanding404 />
   </Layout>
 )
 
