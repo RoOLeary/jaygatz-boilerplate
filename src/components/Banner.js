@@ -18,7 +18,7 @@ const Banner = (props) => (
                 <p>Web Dev. Made in Dublin, based in Amsterdam<br />
                 I make (and talk about) internet stuff.</p>
                 <ul className="actions">
-                    <li><AnchorLink className="button next scrolly" href='#one'>And awaaay we go...</AnchorLink></li>
+                    <li><AnchorLink className="button next scrolly" href='#one'>TELL ME MORE, TELL ME MORE...</AnchorLink></li>
                 </ul>
                  
             </div>
